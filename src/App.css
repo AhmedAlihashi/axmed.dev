@@ -1,0 +1,30 @@
+#Name {
+  cursor: default;
+  color: white;
+}
+
+#githubLink {
+  color: #add9f4;
+}
+
+#githubLink :hover {
+  color: black;
+}
+
+#Links {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#Links:hover {
+  color: gray;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+/* @media only screen and (max-width: 550px) {
+} */
+
+#projectLinks {
+  margin: 2px;
+}
