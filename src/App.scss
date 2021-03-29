@@ -1,19 +1,10 @@
-// Scrollbar
-::-webkit-scrollbar-track {
-  border-radius: 15px;
+* {
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 #Name {
   cursor: default;
   color: white;
-}
-
-#githubLink {
-  color: #add9f4;
-}
-
-#githubLink :hover {
-  color: black;
 }
 
 #Links {

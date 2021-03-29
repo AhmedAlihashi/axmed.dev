@@ -16,7 +16,7 @@ const Header = ({ linkSize }) => {
             height: "95%",
             justifyContent: "space-between",
             margin: 10,
-            borderRadius: 15,
+            borderRadius: 10,
             alignItems: "center",
             padding: 10,
             backgroundColor: "#325A5D",
@@ -108,8 +108,18 @@ const Header = ({ linkSize }) => {
                 name="github square"
                 size="big"
                 style={{ color: "#FFECD1" }}
-
-                //
+              />
+            </a>
+            <a
+              href="https://twitter.com/axmedCodes"
+              target="_blank"
+              rel="noreferrer"
+              id="githubLink"
+            >
+              <Icon
+                name="twitter square"
+                size="big"
+                style={{ color: "#FFECD1" }}
               />
             </a>
           </div>
@@ -123,7 +133,7 @@ const Header = ({ linkSize }) => {
             height: "94vh",
             justifyContent: "space-between",
             margin: 10,
-            borderRadius: 15,
+            borderRadius: 10,
             alignItems: "center",
             padding: 10,
             backgroundColor: "#325A5D",
@@ -204,7 +214,18 @@ const Header = ({ linkSize }) => {
                 name="github square"
                 size="big"
                 style={{ color: "#FFECD1" }}
-                //
+              />
+            </a>
+            <a
+              href="https://twitter.com/axmedCodes"
+              target="_blank"
+              rel="noreferrer"
+              id="githubLink"
+            >
+              <Icon
+                name="twitter square"
+                size="big"
+                style={{ color: "#FFECD1" }}
               />
             </a>
           </div>

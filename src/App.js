@@ -28,7 +28,7 @@ const App = () => {
                 width: "95vw",
 
                 background: "#95C3C6",
-                borderRadius: 15,
+                borderRadius: 10,
                 padding: "20px",
                 overflowY: "scroll",
               }}
@@ -75,7 +75,7 @@ const App = () => {
                   left: 200,
                   right: 0,
                   background: "#95C3C6",
-                  borderRadius: 15,
+                  borderRadius: 10,
 
                   padding: "20px",
                   overflowY: "scroll",
