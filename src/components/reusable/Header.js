@@ -14,7 +14,7 @@ const Header = ({ linkSize }) => {
             display: "flex",
             flexDirection: "row",
             height: "95%",
-            justifyContent: "flex-start",
+            justifyContent: "space-between",
             margin: 10,
             borderRadius: 15,
             border: "5px solid black",
@@ -24,7 +24,7 @@ const Header = ({ linkSize }) => {
             width: "95vw",
           }}
         >
-          <div
+          {/* <div
             style={{
               display: "flex",
               flexDirection: "column",
@@ -46,7 +46,7 @@ const Header = ({ linkSize }) => {
             <h1 id="Name" style={{ marginTop: 0, fontSize: 20 }}>
               {resumeData.name}
             </h1>
-          </div>
+          </div> */}
 
           <div
             style={{
@@ -127,7 +127,7 @@ const Header = ({ linkSize }) => {
             // borderRadius: 13,
           }}
         >
-          <img
+          {/* <img
             style={{
               position: "relative",
               width: "120px",
@@ -141,7 +141,7 @@ const Header = ({ linkSize }) => {
 
           <div>
             <h1 id="Name">{resumeData.name}</h1>
-          </div>
+          </div> */}
           <div
             style={{
               display: "flex",
