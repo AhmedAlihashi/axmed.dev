@@ -29,7 +29,6 @@ const App = () => {
 
                 background: "#95C3C6",
                 borderRadius: 15,
-                border: "5px solid black",
                 padding: "20px",
                 overflowY: "scroll",
               }}
@@ -77,9 +76,11 @@ const App = () => {
                   right: 0,
                   background: "#95C3C6",
                   borderRadius: 15,
-                  border: "5px solid black",
+
                   padding: "20px",
                   overflowY: "scroll",
+                  boxShadow:
+                    "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
                 }}
               >
                 <Switch>

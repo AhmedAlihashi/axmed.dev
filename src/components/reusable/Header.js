@@ -17,10 +17,12 @@ const Header = ({ linkSize }) => {
             justifyContent: "space-between",
             margin: 10,
             borderRadius: 15,
-            border: "5px solid black",
             alignItems: "center",
             padding: 10,
             backgroundColor: "#325A5D",
+            boxShadow:
+              "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
+
             width: "95vw",
           }}
         >
@@ -122,10 +124,11 @@ const Header = ({ linkSize }) => {
             justifyContent: "space-between",
             margin: 10,
             borderRadius: 15,
-            border: "5px solid black",
             alignItems: "center",
             padding: 10,
             backgroundColor: "#325A5D",
+            boxShadow:
+              "rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px",
             // borderRadius: 13,
           }}
         >

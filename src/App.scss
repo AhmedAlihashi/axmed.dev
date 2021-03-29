@@ -1,0 +1,56 @@
+// Scrollbar
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+#Name {
+  cursor: default;
+  color: white;
+}
+
+#githubLink {
+  color: #add9f4;
+}
+
+#githubLink :hover {
+  color: black;
+}
+
+#Links {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#Links:hover {
+  color: gray;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+  transition-duration: 0.5s;
+}
+/* @media only screen and (max-width: 550px) {
+} */
+
+#projectLinks {
+  margin: 2px;
+}
+
+.techIcon {
+  transform: perspective(1500px) rotateY(30deg);
+  border-radius: 1rem;
+  transition: transform 1s ease 0s;
+
+  &:hover {
+    transform: perspective(3000px) rotateY(5deg);
+
+    // animation: shake 10s;
+    // animation-iteration-count: infinite;
+    // border-bottom: solid 2px black;
+  }
+}
+
+.projectDesc {
+  box-shadow: "rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px";
+}

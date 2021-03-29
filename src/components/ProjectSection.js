@@ -186,7 +186,11 @@ const ProjectSection = ({ mobile }) => {
           )}
         </div>
       </Segment>
-      <Segment compact style={{ width: mobile ? "100%" : "50%", margin: 0 }}>
+      <Segment
+        className="projectDesc"
+        compact
+        style={{ width: mobile ? "100%" : "50%", margin: 0 }}
+      >
         <h2>{name}</h2>
         <p style={{ fontSize: 18 }}>{description}</p>
       </Segment>
