@@ -105,6 +105,8 @@ const Header = ({ linkSize }) => {
               <Icon
                 name="github square"
                 size="big"
+                style={{ color: "#FFECD1" }}
+
                 //
               />
             </a>
@@ -117,7 +119,7 @@ const Header = ({ linkSize }) => {
             display: "flex",
             flexDirection: "column",
             height: "94vh",
-            justifyContent: "flex-start",
+            justifyContent: "space-between",
             margin: 10,
             borderRadius: 15,
             border: "5px solid black",
@@ -198,6 +200,7 @@ const Header = ({ linkSize }) => {
               <Icon
                 name="github square"
                 size="big"
+                style={{ color: "#FFECD1" }}
                 //
               />
             </a>
