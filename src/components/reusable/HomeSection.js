@@ -36,6 +36,18 @@ const HomeSection = ({
 
       <div>
         <div>
+          <h1
+            style={{
+              color: "white",
+              fontSize: "80px",
+              textShadow:
+                "0px 0px 0 rgb(242,242,242),0px 1px 0 rgb(228,228,228),0px 2px 0 rgb(215,215,215),0px 3px 0 rgb(201,201,201),0px 4px 0 rgb(188,188,188),0px 5px  0 rgb(175,175,175),0px 6px 5px rgba(0,0,0,1),0px 6px 1px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,.2)",
+            }}
+          >
+            Ahmed Ali
+          </h1>
+        </div>
+        <div>
           <h1 style={{ fontSize: 50 }}>About Me</h1>
           <p
             style={{
