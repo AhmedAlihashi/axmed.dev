@@ -23,6 +23,7 @@ const ProjectSection = ({ mobile }) => {
       }}
     >
       <Segment
+        className="fadeIn"
         compact
         inverted
         color="grey"
@@ -187,7 +188,7 @@ const ProjectSection = ({ mobile }) => {
         </div>
       </Segment>
       <Segment
-        className="projectDesc"
+        className="fadeIn"
         compact
         style={{ width: mobile ? "100%" : "50%", margin: 0 }}
       >
