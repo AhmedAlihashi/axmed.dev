@@ -1,0 +1,36 @@
+.projectTitle {
+  font-size: 50px;
+}
+
+.projectItem {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.projectSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #325a5d;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+
+  transition: transform 0.35s ease 0s;
+  &:hover {
+    transform: scale3d(0.95, 0.95, 1);
+    box-shadow: 0px 0px 20px 5px #282c34ad !important;
+  }
+}
+
+.projectDesc {
+  min-height: 20vh;
+}
+
+.projectLinks {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 10vh;
+}
