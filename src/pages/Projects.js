@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
 import { ProjectSection } from "../components";
 import { Media } from "../core/media";
 import resumeData from "../resumeData";

@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Icon } from "semantic-ui-react";
-import resumeData from "../../resumeData";
 import { Media } from "../../core/media";
-// import Me from "../../images/pic2.jpg";
 
 const Header = ({ linkSize }) => {
   return (

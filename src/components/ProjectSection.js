@@ -1,7 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { Button, Icon, Label, Segment } from "semantic-ui-react";
-import resumeData from "../resumeData";
+import { Button, Icon, Label } from "semantic-ui-react";
 
 const ProjectSection = ({ mobile, dataObj }) => {
   return (
