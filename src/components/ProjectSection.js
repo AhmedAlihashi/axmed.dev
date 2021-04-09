@@ -3,36 +3,20 @@ import { useParams } from "react-router-dom";
 import { Button, Icon, Label, Segment } from "semantic-ui-react";
 import resumeData from "../resumeData";
 
-const ProjectSection = ({ mobile }) => {
-  let { projectName } = useParams();
-
-  const dataObj = resumeData.portfolio.find((obj) => {
-    return obj.name === projectName;
-  });
-
-  const name = dataObj.name;
-  const description = dataObj.description;
-
+const ProjectSection = ({ mobile, dataObj }) => {
   return (
     <div
+      className="projectSection"
       style={{
-        display: "flex",
         flexDirection: mobile ? "column" : "row",
-        justifyContent: "space-between",
-        alignItems: "flex-start",
       }}
     >
-      <Segment
-        className="fadeIn"
+      <div
         compact
         inverted
-        color="grey"
+        className="projectLinks"
         style={{
           width: mobile ? "100%" : "40%",
-          margin: 0,
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
           marginBottom: mobile ? 10 : null,
         }}
       >
@@ -186,15 +170,14 @@ const ProjectSection = ({ mobile }) => {
             </div>
           )}
         </div>
-      </Segment>
-      <Segment
-        className="fadeIn"
-        compact
+      </div>
+      <div
+        className="projectDesc"
         style={{ width: mobile ? "100%" : "50%", margin: 0 }}
       >
-        <h2>{name}</h2>
-        <p style={{ fontSize: 18 }}>{description}</p>
-      </Segment>
+        <h2>{dataObj.name}</h2>
+        <p style={{ fontSize: 18 }}>{dataObj.description}</p>
+      </div>
     </div>
   );
 };

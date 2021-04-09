@@ -70,7 +70,7 @@ const Header = ({ linkSize }) => {
               Home
             </Link>
             <Link
-              to={`/projects/${resumeData.portfolio[0].name}`}
+              to={"/projects"}
               id="Links"
               style={{
                 fontSize: linkSize,
@@ -176,7 +176,7 @@ const Header = ({ linkSize }) => {
               Home
             </Link>
             <Link
-              to={`/projects/${resumeData.portfolio[0].name}`}
+              to={"/projects"}
               id="Links"
               style={{
                 fontSize: linkSize,
