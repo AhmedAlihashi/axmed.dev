@@ -3,7 +3,7 @@ import resumeData from "../resumeData";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <h2>Contact Details</h2>
       <p style={{ fontSize: 20 }}>
         <span>{resumeData.email}</span>

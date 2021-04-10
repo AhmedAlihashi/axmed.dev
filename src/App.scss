@@ -1,4 +1,6 @@
 @import "./core/styles/projects.scss";
+@import "./core/styles/contact.scss";
+@import "./core/styles/experience.scss";
 @import "./core/styles/misc.scss";
 
 * {
@@ -18,10 +20,11 @@
 }
 
 #Links:hover {
-  color: gray;
+  color: #cefbff;
+  transition-duration: 0.3s;
   text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
     0px -5px 35px rgba(255, 255, 255, 0.3);
-  transition-duration: 0.5s;
+  transform: scale3d(1.15, 1.15, 1);
 }
 /* @media only screen and (max-width: 550px) {
 } */
@@ -41,5 +44,11 @@
     // animation: shake 10s;
     // animation-iteration-count: infinite;
     // border-bottom: solid 2px black;
+  }
+}
+
+.socialIcon {
+  &:hover {
+    transform: scale3d(1.15, 1.15, 1);
   }
 }

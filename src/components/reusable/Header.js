@@ -103,6 +103,7 @@ const Header = ({ linkSize }) => {
               id="githubLink"
             >
               <Icon
+                className="socialIcon"
                 name="github square"
                 size="big"
                 style={{ color: "#FFECD1" }}
@@ -115,6 +116,7 @@ const Header = ({ linkSize }) => {
               id="githubLink"
             >
               <Icon
+                className="socialIcon"
                 name="twitter square"
                 size="big"
                 style={{ color: "#FFECD1" }}
@@ -209,6 +211,7 @@ const Header = ({ linkSize }) => {
               id="githubLink"
             >
               <Icon
+                className="socialIcon"
                 name="github square"
                 size="big"
                 style={{ color: "#FFECD1" }}
@@ -221,6 +224,7 @@ const Header = ({ linkSize }) => {
               id="githubLink"
             >
               <Icon
+                className="socialIcon"
                 name="twitter square"
                 size="big"
                 style={{ color: "#FFECD1" }}

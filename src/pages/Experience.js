@@ -4,7 +4,7 @@ import resumeData from "../resumeData";
 const Experience = () => {
   return (
     <div>
-      <h1>Experience</h1>
+      <h1 className="experienceTitle">Experience</h1>
 
       <div>
         {resumeData.work.map((item, k) => {
