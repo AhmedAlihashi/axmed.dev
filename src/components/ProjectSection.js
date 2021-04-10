@@ -10,7 +10,6 @@ const ProjectSection = ({ mobile, dataObj }) => {
       }}
     >
       <div
-        compact
         inverted
         className="projectLinks"
         style={{

@@ -10,7 +10,7 @@ const Projects = () => {
 
       {resumeData.portfolio.map((dataObj, key) => {
         return (
-          <div className="projectItem">
+          <div className="projectItem" key={key}>
             <Media at="mobile">
               <ProjectSection mobile dataObj={dataObj} />
             </Media>
