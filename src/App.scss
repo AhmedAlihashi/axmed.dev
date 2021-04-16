@@ -12,20 +12,6 @@
   color: white;
 }
 
-#Links {
-  margin: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-#Links:hover {
-  color: #cefbff;
-  transition-duration: 0.3s;
-  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
-    0px -5px 35px rgba(255, 255, 255, 0.3);
-  transform: scale3d(1.15, 1.15, 1);
-}
 /* @media only screen and (max-width: 550px) {
 } */
 
@@ -47,8 +33,42 @@
   }
 }
 
-.socialIcon {
-  &:hover {
-    transform: scale3d(1.15, 1.15, 1);
+.appCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0e6bc;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.appShowcase {
+  margin: 10px;
+  overflow-y: scroll;
+  background-color: #95c3c6;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 20px;
+  border-radius: 10px;
+  height: 94vh;
+}
+
+.homeSection {
+  #skillTitle {
+    font-size: 25px;
+  }
+  #bodyText {
+    font-size: 20px;
+  }
+
+  @media (max-width: 600px) {
+    #skillTitle {
+      font-size: 17px;
+    }
+    #bodyText {
+      font-size: 19px;
+    }
   }
 }
