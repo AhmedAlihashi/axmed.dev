@@ -14,7 +14,7 @@ const resumeData = {
     },
   ],
   aboutme:
-    "Hey there 👋🏾, I'm a web developer based out of Toronto looking for his next project. My skill set / interests are primarily centered around JavaScript, React & React Native. I'd classify myself as a Front-End developer but as my projects show not afraid to jump into the backend. Currently I'm working towards sharpening my skills with regards to developing desktop applications. If you're looking for a developer who will go the distance to get the job done and grow with your team, feel free to contact me.",
+    "Hey there 👋🏾, I'm a web developer based out of Toronto looking for his next project. My skill set / interests are primarily centered around JavaScript, React & React Native. I'd classify myself as a Front-End developer but as my projects show I'm not afraid to jump into the backend. Currently I'm working towards sharpening my skills with regards to developing desktop applications. If you're looking for a developer who will go the distance to get the job done and grow with your team, feel free to contact me.",
   address: "Toronto, On",
 
   work: [
