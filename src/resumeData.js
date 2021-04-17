@@ -1,7 +1,7 @@
 import pernGif from "./images/demo.gif";
 
 const resumeData = {
-  name: "Axmed Ali",
+  name: "Ahmed Ali",
   linkedinId: "",
   email: "ahmedali.96@hotmail.com",
   roleDescription:
