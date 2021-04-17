@@ -7,6 +7,7 @@ const Home = () => {
       <div>
         <h1
           style={{
+            margin: 0,
             color: "white",
             fontSize: "80px",
             textShadow:
@@ -17,12 +18,24 @@ const Home = () => {
         </h1>
       </div>
       <div>
-        <h1 style={{ fontSize: 50 }}>About Me</h1>
-        <p className="bodyText">{resumeData.aboutme}</p>
+        <h1
+          style={{
+            fontSize: 50,
+          }}
+        >
+          About Me
+        </h1>
+        <p id="bodyText">{resumeData.aboutme}</p>
       </div>
 
       <div>
-        <h1 style={{ fontSize: 50 }}>Skill set</h1>
+        <h1
+          style={{
+            fontSize: 50,
+          }}
+        >
+          Skill set
+        </h1>
 
         <div>
           <div style={{ marginTop: 10 }}>

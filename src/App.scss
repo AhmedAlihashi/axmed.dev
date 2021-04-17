@@ -5,6 +5,7 @@
 
 * {
   font-family: "Noto Sans JP", sans-serif;
+  margin: 0px;
 }
 
 #Name {
@@ -14,10 +15,6 @@
 
 /* @media only screen and (max-width: 550px) {
 } */
-
-#projectLinks {
-  margin: 2px;
-}
 
 .techIcon {
   transform: perspective(1500px) rotateY(20deg);
@@ -36,8 +33,12 @@
 .appCont {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   height: 100vh;
+  width: 100%;
+  margin: 0px;
+
   background-color: #f0e6bc;
 
   @media (max-width: 600px) {
@@ -52,7 +53,17 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 20px;
   border-radius: 10px;
-  height: 94vh;
+  height: 92.5%;
+  width: 100%;
+  @media (max-width: 600px) {
+    width: 88vw;
+    height: 82vh;
+  }
+
+  @media (max-width: 420px) {
+    width: 85vw;
+    height: 82vh;
+  }
 }
 
 .homeSection {
@@ -61,6 +72,7 @@
   }
   #bodyText {
     font-size: 20px;
+    max-width: 800px;
   }
 
   @media (max-width: 600px) {

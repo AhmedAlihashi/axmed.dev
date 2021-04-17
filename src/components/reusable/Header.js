@@ -1,44 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Header = ({ linkSize }) => {
+const Header = () => {
   return (
     <header>
       <div className="portfolioLinks">
-        <Link
-          to="/"
-          id="Links"
-          style={{
-            fontSize: linkSize,
-          }}
-        >
+        <Link to="/" id="Links">
           Home
         </Link>
-        <Link
-          to={"/projects"}
-          id="Links"
-          style={{
-            fontSize: linkSize,
-          }}
-        >
+        <Link to={"/projects"} id="Links">
           Projects
         </Link>
-        <Link
-          to="/experience"
-          id="Links"
-          style={{
-            fontSize: linkSize,
-          }}
-        >
+        <Link to="/experience" id="Links">
           Experience
         </Link>
-        <Link
-          to="/contact"
-          id="Links"
-          style={{
-            fontSize: linkSize,
-          }}
-        >
+        <Link to="/contact" id="Links">
           Contact
         </Link>
       </div>
