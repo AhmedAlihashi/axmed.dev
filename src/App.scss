@@ -16,6 +16,9 @@ $third-bg-color-dark: #5c5f70;
 $button-color-light: #ffecd1;
 $button-color-dark: #c5a272;
 
+$devIconCont-bgColor-light: #5d7f81;
+$devIconCont-bgColor-dark: #40424f;
+
 * {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0px;
@@ -53,16 +56,22 @@ $button-color-dark: #c5a272;
 }
 
 .devIconCont {
+  background-color: $devIconCont-bgColor-light;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 7px 5px 14px -4px rgba(0, 0, 0, 0.75);
 }
 
 .devIcon {
   height: 80px;
   width: 80px;
   margin: 20px;
+  color: #95c3c6;
 }
 
 .techIcon {
@@ -154,6 +163,14 @@ body.dark-mode {
   }
   .appShowcase {
     background-color: $secondary-bg-color-dark;
+  }
+
+  .devIconCont {
+    background-color: $devIconCont-bgColor-dark;
+  }
+
+  .devIcon {
+    color: white;
   }
 
   .homeSection {

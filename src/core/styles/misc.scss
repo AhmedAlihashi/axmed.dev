@@ -16,6 +16,9 @@ $third-bg-color-dark: #5c5f70;
 $button-color-light: #ffecd1;
 $button-color-dark: #c5a272;
 
+$header-bgColor-light: #5d7f81;
+$header-bgColor-dark: #40424f;
+
 // Scrollbar
 ::-webkit-scrollbar {
   width: 20px;
@@ -51,7 +54,7 @@ header {
   padding: 10px;
   height: 95%;
   font-size: 21px;
-  background-color: #5d7f81;
+  background-color: $header-bgColor-light;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
   #Links {
@@ -133,7 +136,7 @@ body.dark-mode {
     background-color: $scrollbar-thumb-dark;
   }
   header {
-    background-color: $secondary-bg-color-dark;
+    background-color: $header-bgColor-dark;
   }
   #Links {
     color: $button-color-dark;
