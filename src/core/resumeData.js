@@ -114,14 +114,12 @@ const resumeData = {
         "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
     },
     {
-      name: "Global Covid-19 Tracker",
+      name: "Blog App",
       description:
-        "This website shows a snapshot of the current global pandemic (Covid-19) by country.",
-      imgurl: `https://media3.giphy.com/media/Wpwq3jVvIBK9pVbQ5c/giphy.gif`,
-      repourl: "https://github.com/AhmedAlihashi/covid-19-tracker",
-      url: "https://ahmedalihashi.github.io/covid-19-tracker/",
-      prePackagedUrl:
-        "https://drive.google.com/file/d/1SROxaMdi_fokQ-FBZtNTICWwCq8osU_K/view?usp=sharing",
+        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
+      imgurl: `https://i.imgur.com/1irEscM.gif`,
+      repourl: "https://github.com/AhmedAlihashi/blog",
+      url: null,
     },
     {
       name: "Pokedex",
@@ -132,22 +130,6 @@ const resumeData = {
       url: "https://ahmedalihashi.github.io/pokedex/",
       prePackagedUrl:
         "https://drive.google.com/file/d/1_tnUK_Zsm0JTbYhZ0o5Sq28RZJ72NkRm/view?usp=sharing",
-    },
-    {
-      name: "PERN Stack Note Taker",
-      description:
-        "This is a simple note taking app that uses PostgreSQL, Express, React and Node.js ",
-      imgurl: pernGif,
-      repourl: "https://github.com/AhmedAlihashi/PostgreSQL-Note-Taker",
-      url: null,
-    },
-    {
-      name: "Blog App",
-      description:
-        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
-      imgurl: `https://i.imgur.com/1irEscM.gif`,
-      repourl: "https://github.com/AhmedAlihashi/blog",
-      url: null,
     },
     {
       name: "Noted",
@@ -174,6 +156,14 @@ const resumeData = {
       imgurl: `https://media3.giphy.com/media/8cdbH0l0s4gShDhLzl/giphy.gif?cid=ecf05e473b00jv82coinwmbd4e67k0rwjkhtbyvwr72zr2r5&rid=giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/Simple-Storefront",
       url: "https://reactstore.herokuapp.com/#/",
+    },
+    {
+      name: "PERN Stack Note Taker",
+      description:
+        "This is a simple note taking app that uses PostgreSQL, Express, React and Node.js ",
+      imgurl: pernGif,
+      repourl: "https://github.com/AhmedAlihashi/PostgreSQL-Note-Taker",
+      url: null,
     },
     {
       name: "Billboard Rankings Tracker",
