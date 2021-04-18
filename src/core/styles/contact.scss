@@ -1,5 +1,8 @@
+$text-color-light: black;
+$text-color-dark: white;
+
 .contact {
-  h2 {
+  color: $text-color-light h2 {
     margin: 0px;
     font-size: 50px;
     color: white;
@@ -8,5 +11,11 @@
       0px 4px 0 rgb(188, 188, 188), 0px 5px 0 rgb(175, 175, 175),
       0px 6px 5px rgba(0, 0, 0, 1), 0px 6px 1px rgba(0, 0, 0, 0.5),
       0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+body.dark-mode {
+  .contact {
+    color: $text-color-dark;
   }
 }

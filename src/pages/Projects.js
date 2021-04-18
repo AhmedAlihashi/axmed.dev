@@ -1,6 +1,6 @@
 import React from "react";
 
-import resumeData from "../resumeData";
+import resumeData from "../core/resumeData";
 
 const Projects = () => {
   return (
@@ -139,7 +139,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fab fa-android"></i>
+                          <i className="fab fa-android"></i>
                         </a>
                       ) : null}
                       {dataObj.website.url !== null ? (
@@ -149,7 +149,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fas fa-globe"></i>
+                          <i className="fas fa-globe"></i>
                         </a>
                       ) : null}
                       {dataObj.ios.url !== null ? (
@@ -159,7 +159,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <i class="fab fa-app-store-ios"></i>
+                          <i className="fab fa-app-store-ios"></i>
                         </a>
                       ) : null}
                     </div>

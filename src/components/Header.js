@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ThemeButton } from ".";
 
 const Header = () => {
   return (
@@ -19,21 +20,20 @@ const Header = () => {
         </Link>
       </div>
       <div className="socialLinks">
+        <ThemeButton />
         <a
           href="https://github.com/AhmedAlihashi"
           target="_blank"
           rel="noreferrer"
-          id="githubLink"
         >
-          <i class="fab fa-github-square" id="Icon"></i>
+          <i className="fab fa-github-square" id="Icon"></i>
         </a>
         <a
           href="https://twitter.com/axmedCodes"
           target="_blank"
           rel="noreferrer"
-          id="githubLink"
         >
-          <i class="fab fa-twitter-square" id="Icon"></i>
+          <i className="fab fa-twitter-square" id="Icon"></i>
         </a>
       </div>
     </header>

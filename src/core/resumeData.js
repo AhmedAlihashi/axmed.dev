@@ -1,4 +1,4 @@
-import pernGif from "./images/demo.gif";
+import pernGif from "../images/demo.gif";
 
 const resumeData = {
   name: "Ahmed Ali",

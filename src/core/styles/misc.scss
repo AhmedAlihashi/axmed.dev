@@ -1,3 +1,21 @@
+$text-color-light: black;
+$text-color-dark: white;
+
+$scrollbar-track-light: #27676b79;
+$scrollbar-track-dark: #535669;
+
+$scrollbar-thumb-light: #5e7d80;
+$scrollbar-thumb-dark: #25252d;
+
+$primary-bg-color-light: #325a5d;
+
+$secondary-bg-color-dark: #40424f;
+
+$third-bg-color-dark: #5c5f70;
+
+$button-color-light: #ffecd1;
+$button-color-dark: #c5a272;
+
 // Scrollbar
 ::-webkit-scrollbar {
   width: 20px;
@@ -9,12 +27,12 @@
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
 
-  background-color: #27676b79;
+  background-color: $scrollbar-track-light;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #5e7d80;
-  border-radius: 10px;
+  background-color: $scrollbar-thumb-light;
+  border-radius: 8.5px;
 
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -33,22 +51,26 @@ header {
   padding: 10px;
   height: 95%;
   font-size: 21px;
-  background-color: #325a5d;
+  background-color: #5d7f81;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
   #Links {
-    margin: 10px;
-    text-decoration: none;
-    color: white;
+    margin: 5px;
     font-weight: bold;
-  }
+    text-decoration: none;
+    color: $button-color-light;
+    font-size: 25px;
+    border: 2px solid $button-color-light;
+    padding: 5px;
+    border-radius: 7px;
 
-  #Links:hover {
-    color: #cefbff;
-    transition-duration: 0.3s;
-    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
-      0px -5px 35px rgba(255, 255, 255, 0.3);
-    transform: scale3d(1.15, 1.15, 1);
+    &:hover {
+      color: black;
+      background-color: $button-color-light;
+      transition-duration: 0.3s;
+
+      transform: scale3d(0.95, 0.95, 1);
+    }
   }
 
   .socialLinks {
@@ -65,10 +87,12 @@ header {
   }
 
   #Icon {
-    color: #ffecd1;
+    color: $button-color-light;
     margin: 10px;
     font-size: 30px;
     &:hover {
+      transition: 0.3s;
+
       transform: scale3d(0.9, 0.9, 1);
     }
   }
@@ -79,7 +103,7 @@ header {
     width: 96%;
     align-items: center;
     height: auto;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0px;
 
     #Links {
@@ -95,9 +119,33 @@ header {
     }
   }
 
-  @media (max-width: 360px) {
-    .socialLinks {
-      display: none;
+  @media (max-width: 420px) {
+    flex-direction: column;
+  }
+}
+
+body.dark-mode {
+  ::-webkit-scrollbar-track {
+    background-color: $scrollbar-track-dark;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-thumb-dark;
+  }
+  header {
+    background-color: $secondary-bg-color-dark;
+  }
+  #Links {
+    color: $button-color-dark;
+    border: 2px solid $button-color-dark;
+
+    &:hover {
+      color: white;
+      background-color: $button-color-dark;
     }
+  }
+
+  #Icon {
+    color: $button-color-dark;
   }
 }

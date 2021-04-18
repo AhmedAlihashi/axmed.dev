@@ -1,3 +1,16 @@
+$text-color-light: black;
+$text-color-dark: white;
+
+$primary-bg-color-light: #f0e6bc;
+$primary-bg-color-dark: #25252d;
+
+$secondary-bg-color-dark: #40424f;
+
+$third-bg-color-dark: #5c5f70;
+
+$button-color-light: #ffecd1;
+$button-color-dark: #c5a272;
+
 .projectTitle {
   margin: 0px;
   font-size: 50px;
@@ -42,11 +55,11 @@
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none !important;
-  border: 2px solid #95c3c6;
+  border: 2px solid $button-color-light;
   border-radius: 7px;
   padding: 5px;
   p {
-    color: #95c3c6;
+    color: $button-color-light;
     font-weight: bold;
     margin: 0;
   }
@@ -54,9 +67,10 @@
   &:hover {
     transition-duration: 0.3s;
     transform: scale3d(0.95, 0.95, 1);
-    background-color: #95c3c6;
+    background-color: $button-color-light;
+
     p {
-      color: white;
+      color: black;
     }
   }
 }
@@ -64,18 +78,18 @@
 .projectIcon {
   padding: 5px 10px 5px 10px;
   border-radius: 7px;
-  border: 2px solid #95c3c6;
+  border: 2px solid $button-color-light;
   i {
-    color: #95c3c6;
+    color: $button-color-light;
     font-size: 30px;
   }
 
   &:hover {
     transition-duration: 0.3s;
     transform: scale3d(0.95, 0.95, 1);
-    background-color: #95c3c6;
+    background-color: $button-color-light;
     i {
-      color: white;
+      color: black;
     }
   }
 }
@@ -105,5 +119,49 @@
   .projectSectionLinks {
     width: 100%;
     padding: 0px;
+  }
+}
+
+body.dark-mode {
+  .projectSection {
+    background-color: $third-bg-color-dark;
+  }
+
+  .projectLinks {
+    border: 2px solid $button-color-dark;
+
+    p {
+      color: $button-color-dark;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    &:hover {
+      transition-duration: 0.3s;
+      transform: scale3d(0.95, 0.95, 1);
+      background-color: $button-color-dark;
+
+      p {
+        color: white;
+      }
+    }
+  }
+
+  .projectIcon {
+    border: 2px solid $button-color-dark;
+
+    i {
+      color: $button-color-dark;
+      font-size: 30px;
+    }
+
+    &:hover {
+      transition-duration: 0.3s;
+      transform: scale3d(0.95, 0.95, 1);
+      background-color: $button-color-dark;
+      i {
+        color: white;
+      }
+    }
   }
 }

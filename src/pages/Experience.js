@@ -1,12 +1,12 @@
 import React from "react";
-import resumeData from "../resumeData";
+import resumeData from "../core/resumeData";
 
 const Experience = () => {
   return (
     <div>
       <h1 className="experienceTitle">Experience</h1>
 
-      <div>
+      <div className="expCont">
         {resumeData.work.map((item, k) => {
           return (
             <div key={k}>
