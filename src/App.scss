@@ -52,6 +52,19 @@ $button-color-dark: #c5a272;
   }
 }
 
+.devIconCont {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.devIcon {
+  height: 80px;
+  width: 80px;
+  margin: 20px;
+}
+
 .techIcon {
   transform: perspective(1500px) rotateY(20deg);
   border-radius: 1rem;

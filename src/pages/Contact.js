@@ -4,7 +4,8 @@ import resumeData from "../core/resumeData";
 const Contact = () => {
   return (
     <div className="contact">
-      <h2>Contact Details</h2>
+      <h1 className="experienceTitle">Contact Details</h1>
+
       <p style={{ fontSize: 20 }}>
         <span>{resumeData.email}</span>
         <br></br>
