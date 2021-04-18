@@ -76,7 +76,11 @@ const Home = () => (
           <h2 id="skillTitle">Familiar design & Prototyping software </h2>
           <div className="devIconCont">
             <SiAdobexd className="devIcon" title="Adobe XD" />
-            <SiAdobeillustrator className="devIcon" title="Adobe Illustrator" />
+            <SiAdobeillustrator
+              className="devIcon"
+              title="Adobe Illustrator"
+              style={{ borderRadius: "5px" }}
+            />
             <FaInvision className="devIcon" title="Invision" />
           </div>
         </div>
