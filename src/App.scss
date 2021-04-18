@@ -144,7 +144,7 @@ $devIconCont-bgColor-dark: #40424f;
   }
   #bodyText {
     font-size: 20px;
-    max-width: 800px;
+    max-width: 80%;
   }
 
   @media (max-width: 600px) {
@@ -153,6 +153,7 @@ $devIconCont-bgColor-dark: #40424f;
     }
     #bodyText {
       font-size: 19px;
+      max-width: 100%;
     }
   }
 }

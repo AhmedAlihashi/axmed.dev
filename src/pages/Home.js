@@ -16,6 +16,7 @@ import { IoLogoJavascript } from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiAdobexd,
+  SiDiscord,
   SiElectron,
   SiFirebase,
   SiRedux,
@@ -50,38 +51,48 @@ const Home = () => (
         <div style={{ marginTop: 10 }}>
           <h2 id="skillTitle">Core</h2>
           <div className="devIconCont">
-            <AiFillHtml5 title="Html" className="devIcon" />
-            <FaGitSquare title="Git" className="devIcon" />
-            <IoLogoJavascript title="JavaScript" className="devIcon" />
-            <DiCss3 title="Css3" className="devIcon" />
-            <FaReact title="React" className="devIcon" />
-            <SiElectron title="Electron" className="devIcon" />
-            <FaNodeJs title="Node Js" className="devIcon" />
-            <SiRedux title="Redux" className="devIcon" />
-            <SiFirebase title="Firebase" className="devIcon" />
-            <DiMongodb title="MongoDB" className="devIcon" />
+            <AiFillHtml5 title="Html" className="devIcon" alt="Html" />
+            <FaGitSquare title="Git" className="devIcon" alt="Git" />
+            <IoLogoJavascript
+              title="JavaScript"
+              className="devIcon"
+              alt="JavaScript"
+            />
+            <DiCss3 title="Css3" className="devIcon" alt="Css3" />
+            <FaReact title="React" className="devIcon" alt="React" />
+            <SiElectron title="Electron" className="devIcon" alt="Electron" />
+            <FaNodeJs title="Node Js" className="devIcon" alt="Node Js" />
+            <SiRedux title="Redux" className="devIcon" alt="Redux" />
+            <SiFirebase title="Firebase" className="devIcon" alt="Firebase" />
+            <DiMongodb title="MongoDB" className="devIcon" alt="MongoDB" />
           </div>
         </div>
 
         <div>
           <h2 id="skillTitle">Familiar collaborative workflow tools</h2>
           <div className="devIconCont">
-            <FaJira className="devIcon" title="Jira" />
-            <FaTrello className="devIcon" title="Trello" />
-            <FaSourcetree className="devIcon" title="Source tree" />
-            <FaSlack className="devIcon" title="Slack" />
+            <FaJira className="devIcon" title="Jira" alt="Jira" />
+            <FaTrello className="devIcon" title="Trello" alt="Trello" />
+            <FaSourcetree
+              className="devIcon"
+              title="Source tree"
+              alt="Source Tree"
+            />
+            <FaSlack className="devIcon" title="Slack" alt="Slack" />
+            <SiDiscord className="devIcon" title="Discord" alt="Discord" />
           </div>
         </div>
         <div>
           <h2 id="skillTitle">Familiar design & Prototyping software </h2>
           <div className="devIconCont">
-            <SiAdobexd className="devIcon" title="Adobe XD" />
+            <SiAdobexd className="devIcon" title="Adobe XD" alt="Adobe XD" />
             <SiAdobeillustrator
               className="devIcon"
               title="Adobe Illustrator"
+              alt="Adobe Illustrator"
               style={{ borderRadius: "5px" }}
             />
-            <FaInvision className="devIcon" title="Invision" />
+            <FaInvision className="devIcon" title="Invision" alt="Invision" />
           </div>
         </div>
       </div>
