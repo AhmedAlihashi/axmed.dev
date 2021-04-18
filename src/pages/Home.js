@@ -64,7 +64,7 @@ const Home = () => (
         </div>
 
         <div>
-          <h2 id="skillTitle">Familiar workflow tech</h2>
+          <h2 id="skillTitle">Familiar collaborative workflow tools</h2>
           <div className="devIconCont">
             <FaJira className="devIcon" title="Jira" />
             <FaTrello className="devIcon" title="Trello" />
