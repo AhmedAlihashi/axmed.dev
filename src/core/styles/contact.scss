@@ -47,6 +47,13 @@ $text-color-dark: white;
     border-radius: 5px;
     border: none;
     margin: 5px;
+
+    @media (max-width: 660px) {
+      width: 300px;
+    }
+    @media (max-width: 375px) {
+      width: 200px;
+    }
   }
 
   .contactInput {
