@@ -12,7 +12,6 @@ const Experience = () => (
             <h1
               style={{
                 marginTop: 10,
-                textDecoration: "underline",
               }}
             >
               {item.CompanyName}

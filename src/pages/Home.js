@@ -54,55 +54,123 @@ const Home = () => (
         <div style={{ marginTop: 10 }}>
           <h2 id="skillTitle">Core</h2>
           <div className="devIconCont">
-            <FaGitSquare title="Git" className="devIcon" alt="Git" />
-            <AiFillHtml5 title="Html" className="devIcon" alt="Html" />
-            <DiCss3 title="Css3" className="devIcon" alt="Css3" />
-            <FaSass title="Sass" className="devIcon" alt="Sass" />
-            <IoLogoJavascript
-              title="JavaScript"
-              className="devIcon"
-              alt="JavaScript"
-            />
-            <SiJquery title="jQuery" className="devIcon" alt="jQuery" />
-            <FaReact title="React" className="devIcon" alt="React" />
-            <SiElectron title="Electron" className="devIcon" alt="Electron" />
-            <FaNodeJs title="Node Js" className="devIcon" alt="Node Js" />
-            <SiRedux title="Redux" className="devIcon" alt="Redux" />
-            <SiFirebase title="Firebase" className="devIcon" alt="Firebase" />
-            <DiMongodb title="MongoDB" className="devIcon" alt="MongoDB" />
-            <FaUniversalAccess
-              title="Accessability"
-              className="devIcon"
-              alt="Accessability"
-            />
+            <div className="devIconitem">
+              <FaGitSquare className="devIcon" alt="Git" />
+              <h4 className="hiddenLabel">Git</h4>
+            </div>
+
+            <div className="devIconitem">
+              <AiFillHtml5 className="devIcon" alt="Html" />
+              <h4 className="hiddenLabel">Html</h4>
+            </div>
+
+            <div className="devIconitem">
+              <DiCss3 className="devIcon" alt="Css3" />
+              <h4 className="hiddenLabel">Css3</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaSass className="devIcon" alt="Sass" />
+              <h4 className="hiddenLabel">Sass</h4>
+            </div>
+
+            <div className="devIconitem">
+              <IoLogoJavascript className="devIcon" alt="JavaScript" />
+              <h4 className="hiddenLabel">JavaScript</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiJquery className="devIcon" alt="jQuery" />
+              <h4 className="hiddenLabel">jQuery</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaReact className="devIcon" alt="React" />
+              <h4 className="hiddenLabel">React</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiElectron className="devIcon" alt="Electron" />
+              <h4 className="hiddenLabel">Electron</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaNodeJs className="devIcon" alt="Node Js" />
+              <h4 className="hiddenLabel">Node Js</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiRedux className="devIcon" alt="Redux" />
+              <h4 className="hiddenLabel">Redux</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiFirebase className="devIcon" alt="Firebase" />
+              <h4 className="hiddenLabel">Firebase</h4>
+            </div>
+
+            <div className="devIconitem">
+              <DiMongodb className="devIcon" alt="MongoDB" />
+              <h4 className="hiddenLabel">MongoDB</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaUniversalAccess className="devIcon" alt="Accessability" />
+              <h4 className="hiddenLabel">Accessability</h4>
+            </div>
           </div>
         </div>
 
         <div>
           <h2 id="skillTitle">Familiar collaborative workflow tools</h2>
           <div className="devIconCont">
-            <FaJira className="devIcon" title="Jira" alt="Jira" />
-            <FaTrello className="devIcon" title="Trello" alt="Trello" />
-            <FaSourcetree
-              className="devIcon"
-              title="Source tree"
-              alt="Source Tree"
-            />
-            <FaSlack className="devIcon" title="Slack" alt="Slack" />
-            <SiDiscord className="devIcon" title="Discord" alt="Discord" />
+            <div className="devIconitem">
+              <FaJira className="devIcon" alt="Jira" />
+              <h4 className="hiddenLabel">Jira</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaTrello className="devIcon" alt="Trello" />
+              <h4 className="hiddenLabel">Trello</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaSourcetree className="devIcon" alt="Source Tree" />
+              <h4 className="hiddenLabel">Source Tree</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaSlack className="devIcon" alt="Slack" />
+              <h4 className="hiddenLabel">Slack</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiDiscord className="devIcon" alt="Discord" />
+              <h4 className="hiddenLabel">Discord</h4>
+            </div>
           </div>
         </div>
         <div>
           <h2 id="skillTitle">Familiar design & Prototyping software </h2>
           <div className="devIconCont">
-            <SiAdobexd className="devIcon" title="Adobe XD" alt="Adobe XD" />
-            <SiAdobeillustrator
-              className="devIcon"
-              title="Adobe Illustrator"
-              alt="Adobe Illustrator"
-              style={{ borderRadius: "5px" }}
-            />
-            <FaInvision className="devIcon" title="Invision" alt="Invision" />
+            <div className="devIconitem">
+              <SiAdobexd className="devIcon" alt="Adobe XD" />
+              <h4 className="hiddenLabel">Adobe XD</h4>
+            </div>
+
+            <div className="devIconitem">
+              <SiAdobeillustrator
+                className="devIcon"
+                alt="Adobe Illustrator"
+                style={{ borderRadius: "5px" }}
+              />
+              <h4 className="hiddenLabel">Adobe Illustrator</h4>
+            </div>
+
+            <div className="devIconitem">
+              <FaInvision className="devIcon" alt="Invision" />
+              <h4 className="hiddenLabel">Invision</h4>
+            </div>
           </div>
         </div>
       </div>
