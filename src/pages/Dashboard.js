@@ -10,10 +10,10 @@ const Dashboard = () => {
         dashboardEntries.map((i, k) => (
           <div className="dashboardItem" key={k}>
             <div>
-              <h2>{i.name}</h2>
-              <p>{i.contact}</p>
-              <p>{i.message}</p>
-              <p>{i.date}</p>
+              <h2 id="name">{i.name}</h2>
+              <p id="contact">{i.contact}</p>
+              <p id="message">{i.message}</p>
+              <p id="date">{i.date}</p>
             </div>
 
             <button

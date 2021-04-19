@@ -33,15 +33,7 @@ const Header = () => {
               Logout
             </button>
           </>
-        ) : (
-          <Link
-            to="/login"
-            className="themeButton"
-            style={{ textDecoration: "none" }}
-          >
-            Login
-          </Link>
-        )}
+        ) : null}
         <ThemeButton />
         <a
           href="https://github.com/AhmedAlihashi"

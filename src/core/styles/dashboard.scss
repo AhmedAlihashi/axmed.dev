@@ -23,6 +23,20 @@
   margin: 5px;
   overflow-y: scroll;
 
+  // #name {
+  // }
+
+  // #contact {
+  // }
+
+  #message {
+    margin-top: 10px;
+  }
+
+  #date {
+    margin-top: 10px;
+  }
+
   &:hover {
     transform: scale3d(0.95, 0.95, 1);
   }
@@ -49,6 +63,8 @@
   &:hover {
     color: black;
     background-color: rgb(226, 79, 53);
+    border: 2px solid rgb(226, 79, 53);
+
     transition-duration: 0.3s;
 
     transform: scale3d(0.95, 0.95, 1);
