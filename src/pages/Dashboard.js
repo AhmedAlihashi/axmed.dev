@@ -1,8 +1,16 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import AppContext from "../core/context/appContext";
 
 const Dashboard = () => {
-  const { dashboardEntries, removeDashboardItem } = useContext(AppContext);
+  const {
+    dashboardEntries,
+    loadDashboardEntries,
+    removeDashboardItem,
+  } = useContext(AppContext);
+
+  useEffect(() => {
+    loadDashboardEntries();
+  }, [loadDashboardEntries]);
 
   return (
     <div className="dashboardCont">
@@ -17,7 +25,7 @@ const Dashboard = () => {
             </div>
 
             <button
-              onClick={(e) => removeDashboardItem(i.id)}
+              onClick={() => removeDashboardItem(i.id)}
               className="deleteButton"
             >
               Delete

@@ -7,7 +7,7 @@ const db = firebase.firestore();
 
 export const addDashboardEntry = async (name, contact, message) => {
   const collection = db.collection("dashboardEntries");
-  const id = Math.floor(Math.random() * 9000000000) + 1;
+  const id = Date.now();
 
   const req = await collection.doc(`${id}`).set({
     id,

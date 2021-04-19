@@ -19,7 +19,7 @@ const Brain = (props) => {
     getDashboardEntry().then((res) =>
       dispatch({
         type: "LOAD_DASHBOARD_ENTRIES",
-        payload: res.sort((a, b) => (a.nid < b.nid ? 1 : -1)),
+        payload: res,
       })
     );
 
@@ -47,13 +47,10 @@ const Brain = (props) => {
     dispatch({ type: "LOG_OUT" });
   };
 
-  const removeDashboardItem = async (id) => {
-    let deleteBlogProcess = await deleteDashboardEntry(id).then(
+  const removeDashboardItem = async (id) =>
+    await deleteDashboardEntry(id).then(
       async () => await onLoadDashboardEntries()
     );
-
-    return deleteBlogProcess;
-  };
 
   return (
     <AppContext.Provider
