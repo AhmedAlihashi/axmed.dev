@@ -53,7 +53,7 @@ const Login = () => {
       email: { value: "", error: "" },
       password: { value: "", error: "" },
     });
-    setTimeout(() => setError(null), 500);
+    setError(null);
   };
 
   if (
