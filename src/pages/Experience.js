@@ -34,14 +34,22 @@ const Experience = () => (
               </h4>
             </div>
 
-            <p style={{ fontSize: 19 }}>
-              <br />
-              <span>&bull;</span> {item.specialization}
-              <br />
-              <span>&bull;</span> {item.specialization2}
-              <br />
-              <span>&bull;</span> {item.specialization3}
-              <br />
+            <p style={{ fontSize: 19, marginTop: "10px" }}>
+              {item.specialization && (
+                <p>
+                  <span>&bull;</span> {item.specialization}
+                </p>
+              )}
+              {item.specialization2 && (
+                <p>
+                  <span>&bull;</span> {item.specialization2}
+                </p>
+              )}
+              {item.specialization3 && (
+                <p>
+                  <span>&bull;</span> {item.specialization3}
+                </p>
+              )}
             </p>
           </div>
         );

@@ -19,6 +19,22 @@ const resumeData = {
 
   work: [
     {
+      CompanyName: "Juno College",
+      jobTitle: "Web Development Bootcamp",
+      specialization:
+        "Sharpend my web development skills, best practices and accessibility standards",
+      //   "Primarily developed using React, Redux and Google Firebase.",
+      // specialization2:
+      //   "Developed solutions based on the expectations of clients and the guide of senior developers.",
+      // specialization3:
+      //   "Assisted in the integration of client approved design schemes using the design & prototyping tool Invision",
+      MonthOfStarting: "Feb",
+      YearOfStarting: "2021",
+      MonthOfLeaving: "April",
+      YearOfLeaving: "2021",
+      // Achievements: "Some Achievements",
+    },
+    {
       CompanyName: "Your Fuse Inc",
       jobTitle: "Intern Software Engineer",
       specialization:
@@ -31,7 +47,7 @@ const resumeData = {
       YearOfStarting: "2019",
       MonthOfLeaving: "Jun",
       YearOfLeaving: "2020",
-      Achievements: "Some Achievements",
+      // Achievements: "Some Achievements",
     },
     {
       CompanyName: "Freelance",
@@ -42,11 +58,11 @@ const resumeData = {
         "Used Adobe suite skills to create mock-ups for clients as well as trained them how to use it.",
       specialization3:
         "Developed easily readable documentation that a programmer of any level can understand.",
-      MonthOfStarting: "Sept",
-      YearOfStarting: "2018",
+      MonthOfStarting: "May",
+      YearOfStarting: "2019",
       MonthOfLeaving: "Nov",
       YearOfLeaving: "2019",
-      Achievements: "Some Achievements",
+      // Achievements: "Some Achievements",
     },
   ],
   skills: [

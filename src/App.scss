@@ -72,6 +72,32 @@ $devIconCont-bgColor-dark: #40424f;
   width: 80px;
   margin: 20px;
   color: #95c3c6;
+
+  &:hover {
+    transition-duration: 0.5s;
+    color: rgb(233, 119, 98);
+    cursor: none;
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    30% {
+      transform: rotate(5deg);
+    }
+
+    60% {
+      transform: rotate(-5deg);
+    }
+
+    100% {
+      transform: rotate(0deg);
+    }
+  }
 }
 
 .techIcon {
@@ -172,6 +198,10 @@ body.dark-mode {
 
   .devIcon {
     color: white;
+    &:hover {
+      transition-duration: 0.5s;
+      color: rgb(233, 119, 98);
+    }
   }
 
   .homeSection {
