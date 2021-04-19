@@ -25,12 +25,12 @@ $button-color-dark: #c5a272;
   width: 100%;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin-top: 15px;
 }
 
 .projectItem {
-  margin: 5px;
+  margin: 10px;
   width: 45%;
 
   @media (min-width: 1700px) {
@@ -52,9 +52,9 @@ $button-color-dark: #c5a272;
   border-radius: 10px;
   color: white;
   transition: transform 0.35s ease 0s;
+  box-shadow: 7px 5px 10px -4px rgba(0, 0, 0, 0.75);
   &:hover {
     transform: scale3d(0.98, 0.98, 1);
-    box-shadow: 0px 0px 20px 5px #282c34ad !important;
   }
 }
 
