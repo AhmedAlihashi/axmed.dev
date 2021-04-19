@@ -92,23 +92,23 @@ const Home = () => {
               </div>
 
               <div className="devIconitem">
-                <SiJquery className="devIcon" alt="jQuery" />
-                <h4 className="hiddenLabel">jQuery</h4>
-              </div>
-
-              <div className="devIconitem">
                 <FaReact className="devIcon" alt="React" />
                 <h4 className="hiddenLabel">React</h4>
               </div>
 
               <div className="devIconitem">
-                <SiElectron className="devIcon" alt="Electron" />
-                <h4 className="hiddenLabel">Electron</h4>
+                <SiJquery className="devIcon" alt="jQuery" />
+                <h4 className="hiddenLabel">jQuery</h4>
               </div>
 
               <div className="devIconitem">
                 <FaNodeJs className="devIcon" alt="Node Js" />
                 <h4 className="hiddenLabel">Node Js</h4>
+              </div>
+
+              <div className="devIconitem">
+                <SiElectron className="devIcon" alt="Electron" />
+                <h4 className="hiddenLabel">Electron</h4>
               </div>
 
               <div className="devIconitem">

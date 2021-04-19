@@ -9,7 +9,7 @@ import { Header } from "./components";
 import { Home, Contact, Projects, Experience } from "./pages";
 import Dashboard from "./pages/Dashboard";
 import AppContext from "./core/context/appContext";
-import AppState from "./core/context/AppState";
+import Brain from "./core/context/Brain";
 import Login from "./pages/Login";
 
 const App = () => {
@@ -33,7 +33,7 @@ const App = () => {
   };
 
   return (
-    <AppState>
+    <Brain>
       <Router>
         <div className="appCont">
           <Header />
@@ -62,7 +62,7 @@ const App = () => {
           </div>
         </div>
       </Router>
-    </AppState>
+    </Brain>
   );
 };
 

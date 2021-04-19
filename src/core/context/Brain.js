@@ -7,7 +7,7 @@ import "firebase/auth";
 import { logoutUser } from "../api/auth";
 import AppContext from "./appContext";
 
-const AppState = (props) => {
+const Brain = (props) => {
   const initialState = {
     loggedIn: false,
     dashboardEntries: null,
@@ -72,4 +72,4 @@ const AppState = (props) => {
   );
 };
 
-export default AppState;
+export default Brain;
