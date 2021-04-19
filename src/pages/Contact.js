@@ -90,7 +90,7 @@ const Contact = () => {
             />
           </div>
 
-          <button type="submit" onClick={handleSubmit}>
+          <button type="submit" className="inputButton" onClick={handleSubmit}>
             Submit
           </button>
         </form>

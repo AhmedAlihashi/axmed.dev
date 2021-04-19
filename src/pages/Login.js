@@ -74,6 +74,7 @@ const Login = () => {
             <input
               type="text"
               id="email"
+              autoComplete="username"
               value={loginData.email.value}
               onChange={(e) =>
                 setLoginData((prevState) => {
@@ -92,7 +93,8 @@ const Login = () => {
             Password
             <input
               type="password"
-              id="email"
+              id="password"
+              autoComplete="current-password"
               value={loginData.password.value}
               onChange={(e) =>
                 setLoginData((prevState) => {
@@ -109,7 +111,11 @@ const Login = () => {
           </label>
         </div>
 
-        <button type="submit" onClick={(e) => handleLogin(e)}>
+        <button
+          type="submit"
+          className="inputButton"
+          onClick={(e) => handleLogin(e)}
+        >
           Login
         </button>
       </form>
