@@ -24,11 +24,15 @@ import {
   SiJquery,
   SiRedux,
 } from "react-icons/si";
+import theDev from "../images/theDev.png";
 
 const Home = () => (
   <div className="homeSection">
     <div>
-      <h1 className="nameTitle">Ahmed Ali</h1>
+      <h1 className="nameTitle">
+        Ahmed Ali
+        <img src={theDev} alt="developer emoji" />
+      </h1>
     </div>
     <div>
       <h1

@@ -25,9 +25,15 @@ $devIconCont-bgColor-dark: #40424f;
 }
 
 h1 {
+  cursor: default;
+
   text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
     1px 1px 0 white;
   color: black;
+}
+
+h2 {
+  cursor: default;
 }
 
 .hiddenLabel {
@@ -56,9 +62,15 @@ h1 {
     1px 1px 0 white;
   margin: 0;
   font-size: 80px;
-
-  @media (max-width: 420px) {
+  img {
+    height: 60px;
+  }
+  @media (max-width: 750px) {
     font-size: 60px;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 40px;
   }
 }
 
@@ -186,6 +198,8 @@ h1 {
     color: $text-color-light;
   }
   #bodyText {
+    cursor: default;
+
     font-size: 20px;
     max-width: 80%;
   }
