@@ -82,6 +82,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 5px;
   }
 
   .portfolioLinks {
@@ -94,8 +96,9 @@ header {
 
   #Icon {
     color: $button-color-light;
-    margin: 10px;
-    font-size: 30px;
+    margin: 5px;
+    font-size: 25px;
+
     &:hover {
       transition: 0.3s;
 
@@ -111,17 +114,12 @@ header {
     height: auto;
     justify-content: space-between;
     padding: 0.8px;
-    margin: 5px;
     #Links {
       font-size: 12px;
     }
 
     .portfolioLinks {
       flex-direction: row;
-    }
-
-    #Icon {
-      font-size: 25px;
     }
   }
 

@@ -68,7 +68,7 @@ const Login = () => {
     <div>
       <h1>Login</h1>
       <form action="submit" className="contactForm">
-        <div>
+        <div className="contactInput">
           <label>
             Email
             <input

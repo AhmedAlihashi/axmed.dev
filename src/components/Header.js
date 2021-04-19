@@ -25,9 +25,14 @@ const Header = () => {
       </div>
       <div className="socialLinks">
         {loggedIn === true ? (
-          <button onClick={() => onLogout()} className="themeButton">
-            Logout
-          </button>
+          <>
+            <Link className="themeButton" to="/dashboard">
+              Dashboard
+            </Link>
+            <button onClick={() => onLogout()} className="themeButton">
+              Logout
+            </button>
+          </>
         ) : (
           <Link
             to="/login"

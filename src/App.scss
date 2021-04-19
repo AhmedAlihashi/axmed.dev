@@ -2,6 +2,7 @@
 @import "./core/styles/contact.scss";
 @import "./core/styles/experience.scss";
 @import "./core/styles/misc.scss";
+@import "./core/styles/dashboard.scss";
 
 $text-color-light: black;
 $text-color-dark: white;
@@ -47,6 +48,8 @@ h2 {
   border-radius: 5px;
   margin: 0px 10px 0px 5px;
   font-size: 15px;
+  text-decoration: none;
+
   &:hover {
     background-color: #f0e6bc;
     cursor: pointer;

@@ -1,0 +1,31 @@
+.dashboardCont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dashboardItem {
+  background-color: #5d7f81;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  transition: transform 1s;
+  box-shadow: 7px 5px 10px -4px rgba(0, 0, 0, 0.75);
+  max-height: 500px;
+  height: 300px;
+  width: 40%;
+  margin: 5px;
+  overflow-y: scroll;
+
+  &:hover {
+    transform: scale3d(0.95, 0.95, 1);
+  }
+}
+
+body.dark-mode {
+  .dashboardItem {
+    background-color: #40424f;
+  }
+}
