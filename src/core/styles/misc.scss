@@ -68,6 +68,7 @@ header {
     border-radius: 7px;
     width: 100%;
     text-align: center;
+    cursor: pointer;
     &:hover {
       color: black;
       background-color: $button-color-light;
