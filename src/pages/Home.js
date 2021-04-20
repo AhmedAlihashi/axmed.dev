@@ -43,13 +43,6 @@ const Home = () => {
         </h1>
       </div>
       <div>
-        <h1
-          style={{
-            fontSize: 50,
-          }}
-        >
-          About Me
-        </h1>
         <p id="bodyText">{resumeData.aboutme}</p>
       </div>
 
