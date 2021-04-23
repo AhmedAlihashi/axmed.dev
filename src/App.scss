@@ -253,7 +253,10 @@ body.dark-mode {
   }
 
   .devIcon:hover + .hiddenLabel {
-    display: block;
+    color: $secondary-bg-color-dark;
+  }
+
+  .devIconitem div:hover + .hiddenLabel {
     color: $secondary-bg-color-dark;
   }
 
