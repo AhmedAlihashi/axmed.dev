@@ -67,7 +67,7 @@ const Home = () => {
 
               <div className="devIconitem">
                 <AiFillHtml5 className="devIcon" alt="Html" />
-                <h4 className="hiddenLabel">Html</h4>
+                <h4 className="hiddenLabel">Html5</h4>
               </div>
 
               <div className="devIconitem">
