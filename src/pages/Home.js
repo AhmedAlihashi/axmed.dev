@@ -1,6 +1,7 @@
 import React from "react";
 import resumeData from "../core/resumeData";
 import {
+  FaAppStoreIos,
   FaGitSquare,
   FaInvision,
   FaJira,
@@ -14,7 +15,7 @@ import {
 } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoGooglePlaystore, IoLogoJavascript } from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiAdobexd,
@@ -80,6 +81,11 @@ const Home = () => {
               </div>
 
               <div className="devIconitem">
+                <SiJquery className="devIcon" alt="jQuery" />
+                <h4 className="hiddenLabel">jQuery</h4>
+              </div>
+
+              <div className="devIconitem">
                 <IoLogoJavascript className="devIcon" alt="JavaScript" />
                 <h4 className="hiddenLabel">JavaScript</h4>
               </div>
@@ -90,8 +96,14 @@ const Home = () => {
               </div>
 
               <div className="devIconitem">
-                <SiJquery className="devIcon" alt="jQuery" />
-                <h4 className="hiddenLabel">jQuery</h4>
+                <div>
+                  <FaAppStoreIos className="devIcon" alt="Ios App Store" />
+                  <IoLogoGooglePlaystore
+                    className="devIcon"
+                    alt="Google Play Store"
+                  />
+                </div>
+                <h4 className="hiddenLabel">Moblie App Development</h4>
               </div>
 
               <div className="devIconitem">
