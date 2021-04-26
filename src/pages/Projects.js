@@ -1,5 +1,4 @@
 import React from "react";
-
 import resumeData from "../core/resumeData";
 
 const Projects = () => (

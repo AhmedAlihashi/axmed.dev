@@ -26,11 +26,6 @@ const Contact = () => {
     );
   };
 
-  // useEffect(() => {
-  //   if (loggedIn === true) {
-  //     history.push("/dashboard");
-  //   }
-  // }, [history, loggedIn]);
 
   return (
     <div className="contact">
