@@ -19,7 +19,6 @@ import { IoLogoGooglePlaystore, IoLogoJavascript } from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiAdobexd,
-  SiDiscord,
   SiElectron,
   SiFirebase,
   SiJquery,
@@ -159,11 +158,6 @@ const Home = () => {
               <div className="devIconitem">
                 <FaSlack className="devIcon" alt="Slack" />
                 <h4 className="hiddenLabel">Slack</h4>
-              </div>
-
-              <div className="devIconitem">
-                <SiDiscord className="devIcon" alt="Discord" />
-                <h4 className="hiddenLabel">Discord</h4>
               </div>
             </div>
           </div>

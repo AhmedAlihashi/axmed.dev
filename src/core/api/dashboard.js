@@ -1,7 +1,6 @@
 import firebase from "../firebase";
 import "firebase/firestore";
 import "firebase/auth";
-import moment from "moment";
 
 const db = firebase.firestore();
 
@@ -14,7 +13,11 @@ export const addDashboardEntry = async (name, contact, message) => {
     name,
     contact,
     message,
-    date: `${moment().format("lll")}`,
+    date: `${new Date()
+      .toString()
+      .split(" ")
+      .splice(1, 3)
+      .join(" ")} ( ${new Date().toLocaleTimeString()} )`,
   });
 
   return req;
