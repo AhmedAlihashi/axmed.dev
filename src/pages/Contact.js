@@ -31,9 +31,8 @@ const Contact = () => {
     <div className="contact">
       <h1 className="experienceTitle">Contact Details</h1>
 
-      <div>
         <form action="submit" className="contactForm">
-          <div>
+          <div className='nameEmail' >
             <label>
               Name
               <input
@@ -68,7 +67,6 @@ const Contact = () => {
             </label>
           </div>
 
-          <div>
             <textarea
               type="text"
               placeholder="Message"
@@ -83,13 +81,11 @@ const Contact = () => {
                 })
               }
             />
-          </div>
 
           <button type="submit" className="inputButton" onClick={handleSubmit}>
             Submit
           </button>
         </form>
-      </div>
     </div>
   );
 };
