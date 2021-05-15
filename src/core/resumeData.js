@@ -121,21 +121,21 @@ const resumeData = {
     {
       name: "The New York Times Snapshot",
       description:
-        "This is an app that displays the most viewed, shared and emailed articles of the last 30 days from The New York Times using their developer api. The alternate version is the same app but using the animation library Framer motin. ",
+      "This is an app that displays the most viewed, shared and emailed articles of the last 30 days from The New York Times using their developer api. The alternate version is the same app but using the animation library Framer motin. ",
       imgurl: `https://media3.giphy.com/media/kI91JqYXz3I8DFs5fx/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/nytimes",
       url: "https://ahmedalihashi.github.io/nytimes/",
       altUrl: "https://ahmedalihashi.github.io/nytimes_framer",
       prePackagedUrl:
-        "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
+      "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
     },
     {
-      name: "Blog App",
+      name: "TypeScript Todo List",
       description:
-        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
-      imgurl: `https://i.imgur.com/1irEscM.gif`,
-      repourl: "https://github.com/AhmedAlihashi/blog",
-      url: null,
+      "This project is a simple todo list built with React & TypeScript",
+      imgurl: `https://media4.giphy.com/media/C3gFgVk7UFS8TUmZ2J/giphy.gif?cid=ecf05e47hxotezwjjy4wdp0nmalbsi09lkgqsmcvh1hjspw0&rid=giphy.gif&ct=s`,
+      repourl: "https://github.com/AhmedAlihashi/Todo-List",
+      url: "https://admiring-golick-112636.netlify.app/",
     },
     {
       name: "Pokedex",
@@ -146,6 +146,14 @@ const resumeData = {
       url: "https://ahmedalihashi.github.io/pokedex/",
       prePackagedUrl:
         "https://drive.google.com/file/d/1_tnUK_Zsm0JTbYhZ0o5Sq28RZJ72NkRm/view?usp=sharing",
+    },
+    {
+      name: "Blog App",
+      description:
+        "This project uses React Native to display the contents of a blog and Electron to act as the content managemnet system.",
+      imgurl: `https://i.imgur.com/1irEscM.gif`,
+      repourl: "https://github.com/AhmedAlihashi/blog",
+      url: null,
     },
     {
       name: "Noted",
