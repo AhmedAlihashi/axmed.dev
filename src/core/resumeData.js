@@ -96,6 +96,14 @@ const resumeData = {
   ],
   portfolio: [
     {
+      name: "Shopping Cart",
+      description:
+        "This project demonstarts the use of Redux as a global state solution with React",
+      imgurl: `https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/119354253/original/45e7503d92257a1c0781d82fdb46340adf19e655/create-beautiful-frontend-of-your-web-in-react-js-with-redux.jpg`,
+      repourl: "https://github.com/AhmedAlihashi/Shopping-Cart",
+      url: "https://redux-shop-ahmed.netlify.app/",
+    },
+    {
       name: "Our Ends",
       description:
         "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows app for CRUD operations.",
@@ -109,8 +117,7 @@ const resumeData = {
       android: {
         imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
         repourl: null,
-        url:
-          "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+        url: "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
       },
       ios: {
         imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
@@ -121,18 +128,18 @@ const resumeData = {
     {
       name: "The New York Times Snapshot",
       description:
-      "This is an app that displays the most viewed, shared and emailed articles of the last 30 days from The New York Times using their developer api. The alternate version is the same app but using the animation library Framer motin. ",
+        "This is an app that displays the most viewed, shared and emailed articles of the last 30 days from The New York Times using their developer api. The alternate version is the same app but using the animation library Framer motin. ",
       imgurl: `https://media3.giphy.com/media/kI91JqYXz3I8DFs5fx/giphy.gif`,
       repourl: "https://github.com/AhmedAlihashi/nytimes",
       url: "https://ahmedalihashi.github.io/nytimes/",
       altUrl: "https://ahmedalihashi.github.io/nytimes_framer",
       prePackagedUrl:
-      "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
+        "https://drive.google.com/file/d/1T3rpNWmfgOPKD_5EBAT9rD0j9iJVBn9l/view?usp=sharing",
     },
     {
       name: "TypeScript Todo List",
       description:
-      "This project is a simple todo list built with React & TypeScript",
+        "This project is a simple todo list built with React & TypeScript",
       imgurl: `https://media4.giphy.com/media/C3gFgVk7UFS8TUmZ2J/giphy.gif?cid=ecf05e47hxotezwjjy4wdp0nmalbsi09lkgqsmcvh1hjspw0&rid=giphy.gif&ct=s`,
       repourl: "https://github.com/AhmedAlihashi/Todo-List",
       url: "https://admiring-golick-112636.netlify.app/",
