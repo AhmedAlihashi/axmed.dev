@@ -15,7 +15,11 @@ import {
 } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3, DiMongodb } from "react-icons/di";
-import { IoLogoGooglePlaystore, IoLogoJavascript } from "react-icons/io5";
+import {
+  IoLogoGooglePlaystore,
+  IoLogoJavascript,
+  IoLogoPwa,
+} from "react-icons/io5";
 import {
   SiAdobeillustrator,
   SiAdobexd,
@@ -77,6 +81,11 @@ const Home = () => {
               <div className="devIconitem">
                 <FaSass className="devIcon" alt="Sass" />
                 <h4 className="hiddenLabel">Sass</h4>
+              </div>
+
+              <div className="devIconitem">
+                <IoLogoPwa className="devIcon" alt="Progressive Web App" />
+                <h4 className="hiddenLabel">Progressive Web App</h4>
               </div>
 
               <div className="devIconitem">
