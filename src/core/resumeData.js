@@ -142,7 +142,7 @@ const resumeData = {
         "This project is a simple todo list built with React & TypeScript",
       imgurl: `https://media4.giphy.com/media/C3gFgVk7UFS8TUmZ2J/giphy.gif?cid=ecf05e47hxotezwjjy4wdp0nmalbsi09lkgqsmcvh1hjspw0&rid=giphy.gif&ct=s`,
       repourl: "https://github.com/AhmedAlihashi/Todo-List",
-      url: "https://admiring-golick-112636.netlify.app/",
+      url: "https://ts-logger.netlify.app/",
     },
     {
       name: "Pokedex",
