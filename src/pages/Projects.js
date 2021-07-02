@@ -102,67 +102,72 @@ const Projects = () => (
                         flexWrap: "wrap",
                       }}
                     >
-                      <img
-                        alt="android"
-                        src={dataObj.android.imgurl}
-                        style={{ height: "90px", width: "90px" }}
-                      />
+                      {dataObj.android && (
+                        <img
+                          alt="android"
+                          src={dataObj.android.imgurl}
+                          style={{ height: "90px", width: "90px" }}
+                        />
+                      )}
 
-                      <img
-                        alt="World wide web"
-                        src={dataObj.website.imgurl}
-                        style={{ height: "60px", width: "60px" }}
-                      />
+                      {dataObj.website && (
+                        <img
+                          alt="World wide web"
+                          src={dataObj.website.imgurl}
+                          style={{ height: "60px", width: "60px" }}
+                        />
+                      )}
 
-                      <img
-                        alt="ios"
-                        src={dataObj.ios.imgurl}
-                        style={{ height: "90px", width: "90px" }}
-                      />
+                      {dataObj.ios && (
+                        <img
+                          alt="ios"
+                          src={dataObj.ios.imgurl}
+                          style={{ height: "90px", width: "90px" }}
+                        />
+                      )}
                     </div>
                   ) : null}
 
-                  {dataObj.android && (
-                    <div
-                      style={{
-                        display: "flex",
-                        flexDirection: "row",
-                        justifyContent: "space-evenly",
-                        flexWrap: "wrap",
-                      }}
-                    >
-                      {dataObj.android.url !== null ? (
-                        <a
-                          className="projectIcon"
-                          href={dataObj.android.url}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="fab fa-android"></i>
-                        </a>
-                      ) : null}
-                      {dataObj.website.url !== null ? (
-                        <a
-                          className="projectIcon"
-                          href={dataObj.website.url}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="fas fa-globe"></i>
-                        </a>
-                      ) : null}
-                      {dataObj.ios.url !== null ? (
-                        <a
-                          className="projectIcon"
-                          href={dataObj.ios.url}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          <i className="fab fa-app-store-ios"></i>
-                        </a>
-                      ) : null}
-                    </div>
-                  )}
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "space-evenly",
+                      flexWrap: "wrap",
+                      marginTop: 10,
+                    }}
+                  >
+                    {dataObj.android && dataObj.android.url !== null ? (
+                      <a
+                        className="projectIcon"
+                        href={dataObj.android.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fab fa-android"></i>
+                      </a>
+                    ) : null}
+                    {dataObj.website && dataObj.website.url !== null ? (
+                      <a
+                        className="projectIcon"
+                        href={dataObj.website.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fas fa-globe"></i>
+                      </a>
+                    ) : null}
+                    {dataObj.ios && dataObj.ios.url !== null ? (
+                      <a
+                        className="projectIcon"
+                        href={dataObj.ios.url}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <i className="fab fa-app-store-ios"></i>
+                      </a>
+                    ) : null}
+                  </div>
                 </div>
               </div>
               <div className="projectDesc">
