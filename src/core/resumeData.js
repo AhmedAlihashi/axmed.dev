@@ -101,16 +101,16 @@ const resumeData = {
         "I happened to be searching the app store for a custom soundboard but after being dissatisfied with what i found, I decided to build my own.",
       url: null,
       repourl: null,
-      // website: {
-      //   imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
-      //   repourl: null,
-      //   url: "https://ourends.ca/",
-      // },
-      // android: {
-      //   imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
-      //   repourl: null,
-      //   url: "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
-      // },
+      website: {
+        imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
+        repourl: null,
+        url: "https://soundzord.netlify.app/",
+      },
+      android: {
+        imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
+        repourl: null,
+        url: "https://play.google.com/store/apps/details?id=com.ourends.soundboard",
+      },
       ios: {
         imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
         repourl: null,
