@@ -10,13 +10,6 @@ const Projects = () => (
         return (
           <div className="projectItem" key={key}>
             <div className="projectSection">
-              <p
-                style={{
-                  fontWeight: "bold",
-                }}
-              >
-                {key + 1}
-              </p>
               <div className="projectSectionLinks">
                 {dataObj.imgurl && (
                   <div
