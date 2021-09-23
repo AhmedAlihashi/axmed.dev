@@ -96,6 +96,28 @@ const resumeData = {
   ],
   portfolio: [
     {
+      name: "Our Ends",
+      description:
+        "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows app for CRUD operations.",
+      url: null,
+      repourl: null,
+      website: {
+        imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
+        repourl: null,
+        url: "https://ourends.ca/",
+      },
+      android: {
+        imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
+        repourl: null,
+        url: "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
+      },
+      ios: {
+        imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
+        repourl: null,
+        url: "https://apps.apple.com/us/app/our-ends/id1537892808",
+      },
+    },
+    {
       name: "Custom Soundboard",
       description:
         "I happened to be searching the app store for a custom soundboard but after being dissatisfied with what i found, I decided to build my own.",
@@ -133,28 +155,7 @@ const resumeData = {
       repourl: "https://github.com/AhmedAlihashi/Shopping-Cart",
       url: "https://redux-shop-ahmed.netlify.app/",
     },
-    {
-      name: "Our Ends",
-      description:
-        "I was given the opportunity to develop all of the web based tools needed by their blog. This included a website, an android & ios app and a windows app for CRUD operations.",
-      url: null,
-      repourl: null,
-      website: {
-        imgurl: "https://media.giphy.com/media/jmSi1xSHBJuDfQTiEN/giphy.gif",
-        repourl: null,
-        url: "https://ourends.ca/",
-      },
-      android: {
-        imgurl: `https://media.giphy.com/media/Y4bzv6DYbYzy8jDnoW/giphy.gif`,
-        repourl: null,
-        url: "https://play.google.com/store/apps/details?id=com.ourends.ourendsapp",
-      },
-      ios: {
-        imgurl: `https://media.giphy.com/media/3og0IPZcpT7hyEZ7nW/giphy.gif`,
-        repourl: null,
-        url: "https://apps.apple.com/us/app/our-ends/id1537892808",
-      },
-    },
+
     {
       name: "The New York Times Snapshot",
       description:
