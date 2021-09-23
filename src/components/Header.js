@@ -34,21 +34,34 @@ const Header = () => {
             </button>
           </>
         ) : null}
+
         <ThemeButton />
-        <a
-          href="https://github.com/AhmedAlihashi"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-github-square" id="Icon"></i>
-        </a>
-        <a
-          href="https://twitter.com/axmedCodes"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <i className="fab fa-twitter-square" id="Icon"></i>
-        </a>
+
+        <div>
+          <a
+            href="https://www.linkedin.com/in/ahmed-abdikarin-ali/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin" id="Icon"></i>
+          </a>
+
+          <a
+            href="https://github.com/AhmedAlihashi"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github-square" id="Icon"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/axmedCodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-twitter-square" id="Icon"></i>
+          </a>
+        </div>
       </div>
     </header>
   );
