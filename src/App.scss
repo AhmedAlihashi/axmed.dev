@@ -29,8 +29,6 @@ $devIconCont-bgColor-dark: #40424f;
 h1 {
   cursor: default;
 
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
-    1px 1px 0 white;
   color: black;
 }
 
@@ -62,8 +60,7 @@ h2 {
 
 .nameTitle {
   color: black;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
-    1px 1px 0 white;
+
   margin: 0;
   font-size: 80px;
   img {
@@ -234,8 +231,6 @@ h2 {
 
 body.dark-mode {
   h1 {
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-      1px 1px 0 black;
     color: white;
   }
   .appCont {
