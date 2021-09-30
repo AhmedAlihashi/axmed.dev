@@ -142,7 +142,7 @@ const resumeData = {
     {
       name: "Typescript Tic Tac Toe game",
       description: "A react web app put together using TypeScript",
-      imgurl: `https://giphy.com/gifs/M8b747E4YlcuXSh71N`,
+      imgurl: `https://media2.giphy.com/media/M8b747E4YlcuXSh71N/giphy.gif?cid=ecf05e47k8wz0kf91o81udslkiv8ttgz3sctxenqpr3s33sj&rid=giphy.gif&ct=g`,
       repourl: "https://github.com/AhmedAlihashi/TS-tic-tac-toe",
       url: "https://ahmed-tic-tac-toe-game.netlify.app/",
     },
