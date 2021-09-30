@@ -140,6 +140,13 @@ const resumeData = {
       },
     },
     {
+      name: "Typescript Tic Tac Toe game",
+      description: "A react web app put together using TypeScript",
+      imgurl: `https://giphy.com/gifs/M8b747E4YlcuXSh71N`,
+      repourl: "https://github.com/AhmedAlihashi/TS-tic-tac-toe",
+      url: "https://ahmed-tic-tac-toe-game.netlify.app/",
+    },
+    {
       name: "Flag Match",
       description:
         "This website quizes the user on how well they know the flags of the world",
@@ -155,7 +162,6 @@ const resumeData = {
       repourl: "https://github.com/AhmedAlihashi/Shopping-Cart",
       url: "https://redux-shop-ahmed.netlify.app/",
     },
-
     {
       name: "The New York Times Snapshot",
       description:
