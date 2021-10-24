@@ -16,12 +16,12 @@ const Header = () => {
         <Link to={"/projects"} id="Links">
           Projects
         </Link>
-        <Link to="/experience" id="Links">
+        {/* <Link to="/experience" id="Links">
           Experience
         </Link>
         <Link to="/contact" id="Links">
           Contact
-        </Link>
+        </Link> */}
       </div>
       <div className="socialLinks">
         {loggedIn === true ? (
@@ -38,13 +38,13 @@ const Header = () => {
         <ThemeButton />
 
         <div>
-          <a
+          {/* <a
             href="https://www.linkedin.com/in/ahmed-abdikarin-ali/"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fab fa-linkedin" id="Icon"></i>
-          </a>
+          </a> */}
 
           <a
             href="https://github.com/AhmedAlihashi"
