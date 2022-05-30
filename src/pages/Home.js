@@ -13,7 +13,7 @@ import {
   FaTrello,
   FaUniversalAccess,
 } from "react-icons/fa";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiOutlineConsoleSql } from "react-icons/ai";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import {
   IoLogoGooglePlaystore,
@@ -136,6 +136,11 @@ const Home = () => {
             <div className="devIconitem">
               <DiMongodb className="devIcon" alt="MongoDB" />
               <h4 className="hiddenLabel">MongoDB</h4>
+            </div>
+
+            <div className="devIconitem">
+              <AiOutlineConsoleSql className="devIcon" alt="SQL" />
+              <h4 className="hiddenLabel">SQL</h4>
             </div>
 
             <div className="devIconitem">

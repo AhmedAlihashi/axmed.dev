@@ -5,7 +5,7 @@ const ThemeButton = () => {
     JSON.parse(localStorage.getItem("DARK_MODE"))
   );
   useEffect(() => {
-    if (JSON.parse(localStorage.getItem("DARK_MODE")) === true) {
+    if (JSON.parse(localStorage.getItem("DARK_MODE")) !== true) {
       document.body.classList.add("dark-mode");
     }
   }, []);
