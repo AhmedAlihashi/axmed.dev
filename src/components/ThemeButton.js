@@ -23,7 +23,7 @@ const ThemeButton = () => {
 
   return (
     <button onClick={() => toggleTheme()} className="themeButton">
-      {!darkMode ? (
+      {darkMode ? (
         <i className="fas fa-cloud-moon"></i>
       ) : (
         <i className="fas fa-cloud-sun"></i>
