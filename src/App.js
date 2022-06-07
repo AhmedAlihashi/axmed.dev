@@ -6,7 +6,13 @@ import {
   Redirect,
 } from "react-router-dom";
 import { Header } from "./components";
-import { Home, Contact, Projects, Experience } from "./pages";
+import {
+  Home,
+  Contact,
+
+  // Projects,
+  Experience,
+} from "./pages";
 import Dashboard from "./pages/Dashboard";
 import AppContext from "./core/context/appContext";
 import Brain from "./core/context/Brain";
@@ -46,9 +52,9 @@ const App = () => {
               <Route path="/experience">
                 <Experience />
               </Route>
-              <Route path="/projects">
+              {/* <Route path="/projects">
                 <Projects />
-              </Route>
+              </Route> */}
               <Route path="/contact">
                 <Contact />
               </Route>

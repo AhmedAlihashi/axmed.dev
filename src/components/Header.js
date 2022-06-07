@@ -10,13 +10,14 @@ const Header = () => {
   return (
     <header>
       <div className="portfolioLinks">
+        {/*
         <Link to="/" id="Links">
           Home
         </Link>
         <Link to={"/projects"} id="Links">
           Projects
         </Link>
-        {/* <Link to="/experience" id="Links">
+        <Link to="/experience" id="Links">
           Experience
         </Link>
         <Link to="/contact" id="Links">
